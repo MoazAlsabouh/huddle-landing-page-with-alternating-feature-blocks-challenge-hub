@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+}
+
+header {
+  background: url(../images/bg-hero-desktop.svg) no-repeat #edfbfe ;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  padding: 55px 80px 0;
+}
+
+header .bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .bar .button-right {
+  background: #ffffff;
+  color: var(--very-dark-cyan);
+  border: none;
+  padding: 15px 60px;
+  box-shadow: 0px 0px 5px 0px #c0afaf;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+header .bar .button-right:active {
+  border: 1px solid hsl(208, 11%, 55%);
+  --grayish-blue
+}
+
+header .bar .button-right:hover {
+  color: var(--grayish-blue);
+  opacity: 0.9;
+}
+
+header .body {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 65px;
+  padding-bottom: 80px;
+}
+
+header .body .text {
+  width: 850px;
+  height: 490px;
+  padding-top: 100px;
+  padding-right: 75px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .body .text h1 {
+  color: var(--very-dark-cyan);
+  padding-right: 110px;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+header .body .text p {
+  padding-top: 40px;
+  padding-right: 140px;
+  font-size: 22px;
+}
+
+header .body .text .button {
+  margin-top: 30px;
+  border: none;
+  color: white;
+  background: var(--pink);
+  padding: 20px 65px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+header .body .text .button:active {
+  border: 1px solid hsl(208, 11%, 55%);
+}
+
+header .body .text .button:hover {
+  opacity: 0.7;
+}
+
+header .body .image {
+  width: 690px;
+  height: 490px;
+}
+
+header .body .image img {
+  max-width: 100%;
+}
+
+main {
+  width: 100vw;
+  height: auto;
+}
+
+.characteristics {
+  background: #ffffff;
+  padding: 0 100px;
+  margin-top: 140px;
+}
+
+.characteristics .features {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  height: 450px;
+  box-shadow: 0 0 9px 0px #d6d6d6;
+  margin: 50px 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.characteristics .features:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.characteristics .features .textfeat {
+  width: 800px;
+  padding: 160px 140px 0;
+}
+
+.characteristics .features .textfeat h2 {
+  color: var(--very-dark-cyan);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.characteristics .features .textfeat p {
+  color: var(--grayish-blue);
+  padding-top: 25px;
+}
+
+.characteristics .features .imagefeat {
+  padding-left: 150px;
+}
+
+.characteristics .features .imagefeat img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  width: 800px;
+  height: 280px;
+  background: #ffffff;
+  box-shadow: 0px -4px 10px 0 #cfcfcf;
+  margin: auto;
+  position: relative;
+  top: 120px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card h2 {
+  color: var(--very-dark-cyan);
+  font-weight: 700;
+  font-size: 32px;
+  padding: 75px 130px 45px;
+}
+
+.card .button-card {
+  border: none;
+  color: white;
+  background: var(--pink);
+  font-weight: 700;
+  padding: 30px 100px;
+  margin-left: 200px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.card .button-card:active {
+  border: 1px solid hsl(208, 11%, 55%);
+}
+
+.card .button-card:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  background: var(--very-dark-cyan);
+  width: 100vw;
+  height: auto;
+}
+
+.footer .info {
+  padding: 190px 120px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .info .content {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+}
+
+.footer .info .content p {
+  color: var(--very-pale-cyan);
+}
+
+.footer .info .content .location,
+.footer .info .content .phone,
+.footer .info .content .email {
+  display: flex;
+  padding: 20px 0;
+}
+
+.footer .info .content .location img,
+.footer .info .content .phone img,
+.footer .info .content .email img {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px
+}
+
+.footer .info nav {
+  display: flex;
+  margin: 60px 0;
+}
+
+.footer .info nav ul:first-child {
+  margin-right: 125px;
+}
+
+.footer .info nav ul li {
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.footer .info nav ul li a {
+  text-decoration: none;
+  color: var(--grayish-blue);
+  font-weight: 700;
+}
+
+.footer .info nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .info .icon {
+  padding: 80px 0;
+}
+
+.footer .info .icon svg:first-child {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .info .icon svg {
+  margin: 0 20px;
+  fill: #ffffff;
+  position: relative;
+}
+
+.footer .info .icon svg:hover {
+  fill: var(--pink);
+}
+
+.footer .copyright {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 80px 60px;
+  color: var(--very-pale-cyan)
+}
+
+@media (max-width: 767px) {
+  header {
+    background: url(../images/bg-hero-mobile.svg) no-repeat #edfbfe ;
+    background-size: cover;
+    padding: 40px 30px;
+  }
+  header .bar .logo img {
+    width: 150px;
+  }
+  header .bar .button-right {
+    padding: 10px 20px;
+  }
+  header .body {
+    flex-direction: column;
+  }
+  header .body .text {
+    width: 350px;
+    padding-right: 0;
+    text-align: center;
+  }
+  header .body .text h1 {
+    padding-right: 0;
+    font-size: 32px;
+
+  }
+  header .body .text p {
+    padding-right: 0;
+    font-size: 18px;
+  }
+  header .body .text .button {
+    padding: 15px 50px;
+  }
+  header .body .image {
+    width: 350px;
+    height: auto;
+  }
+  .characteristics {
+    padding: 80px 30px;
+  }
+  .characteristics .features {
+    flex-direction: column-reverse;
+    width: 350px;
+    height: 680px;
+  }
+  .characteristics .features:nth-child(2) {
+    flex-direction: column;
+  }
+  .characteristics .features .imagefeat {
+    padding: 0;
+  }
+  .characteristics .features .textfeat {
+    width: 350px;
+    padding: 100px 40px 50px;
+    text-align: center;
+  }
+  .card {
+    width: 350px;
+    height: 280px;
+    top: 180px
+  }
+  .card h2 {
+    padding: 75px 15px 45px;
+    font-size: 19px;
+  }
+  .card .button-card {
+    padding: 20px 60px;
+    margin: 0 24px;
+  }
+  .footer .info {
+    padding: 275px 30px 0;
+    flex-direction: column;
+  }
+  .footer .info .content {
+    width: 350px;
+  }
+  .footer .info nav {
+    flex-direction: column;
+    margin: 0;
+  }
+  .footer .info .icon {
+    padding-left: 60px;
+  }
+  .footer .copyright {
+    justify-content: center;
+    padding: 0 0 60px;
+  }
+  .footer .copyright p {
+    font-size: 12px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
