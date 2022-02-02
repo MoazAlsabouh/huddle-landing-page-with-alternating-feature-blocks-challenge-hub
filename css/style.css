@@ -59,7 +59,7 @@ header .body {
 }
 
 header .body .text {
-  width: 850px;
+  width: 686px;
   height: 490px;
   padding-top: 100px;
   padding-right: 75px;
@@ -68,15 +68,13 @@ header .body .text {
 
 header .body .text h1 {
   color: var(--very-dark-cyan);
-  padding-right: 110px;
   font-weight: 600;
   font-size: 50px;
 }
 
 header .body .text p {
   padding-top: 40px;
-  padding-right: 140px;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 header .body .text .button {
@@ -126,7 +124,7 @@ main {
   background: #ffffff;
   display: flex;
   flex-direction: row;
-  width: 1500px;
+  width: 1351px;
   height: 450px;
   box-shadow: 0 0 9px 0px #d6d6d6;
   margin: 50px 0;
@@ -157,9 +155,6 @@ main {
   padding-top: 25px;
 }
 
-.characteristics .features .imagefeat {
-  padding-left: 150px;
-}
 
 .characteristics .features .imagefeat img {
   max-width: 100%;
